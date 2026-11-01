@@ -17,7 +17,7 @@ Double-click `index.html` to open the portfolio in a browser. Alternatively, fro
 python -m http.server 8000
 ```
 
-Then visit <http://localhost:8000>.
+Then visit http://127.0.0.1:5500/joint-portfolio/index.html.
 
 ## Publish on GitHub
 
