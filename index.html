@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0e1f">
+  <meta name="description" content="The joint portfolio of Shubham Kumar and Ritik Singh, BCA students exploring data analysis and beginner-friendly projects.">
+  <title>Shubham Kumar &amp; Ritik Singh — Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home">SHUBHAM <span>&amp;</span> RITIK<span class="brand-period">.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a class="nav-link active" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy reveal" id="about">
+        <p class="eyebrow"><span class="status-dot"></span> A shared journey in data</p>
+        <h1 id="hero-title">Hi, we're <span>Shubham Kumar</span> &amp; <span>Ritik Singh.</span></h1>
+        <p class="hero-description">We're BCA students exploring data analysis and building beginner-friendly projects together. We like turning real datasets into clear, useful stories while learning something new with every project.</p>
+        <p class="hero-tagline">BCA Students <span>·</span> Aspiring Data Professionals</p>
+        <div class="button-row">
+          <a class="button button-primary" href="#projects">Explore our projects <span aria-hidden="true">↓</span></a>
+          <a class="button button-secondary" href="https://github.com/ShubhamSingh1845" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="profile-grid reveal" aria-label="Meet the students">
+        <article class="profile-card card">
+          <div class="avatar avatar-one" aria-hidden="true">SK</div>
+          <p class="profile-label">Student &amp; collaborator</p>
+          <h2>Shubham Kumar</h2>
+          <p class="location"><span aria-hidden="true">⌖</span> Bihar, India</p>
+          <div class="chip-list" aria-label="Skills">
+            <span class="chip">Data Analysis</span><span class="chip">MS Excel</span><span class="chip">Data Mining</span>
+          </div>
+        </article>
+        <article class="profile-card card">
+          <div class="avatar avatar-two" aria-hidden="true">RS</div>
+          <p class="profile-label">Student &amp; collaborator</p>
+          <h2>Ritik Singh</h2>
+          <p class="location"><span aria-hidden="true">⌖</span> Uttar Pradesh, India</p>
+          <div class="chip-list" aria-label="Skills">
+            <span class="chip">Data Analysis</span><span class="chip">MS Excel</span><span class="chip">Data Mining</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">What we're learning</p>
+        <h2 id="skills-title">Skills &amp; interests<span class="accent-period">.</span></h2>
+        <p>Shared foundations we're developing through coursework and hands-on practice.</p>
+      </div>
+      <div class="three-grid">
+        <article class="skill-card card reveal"><span class="card-icon" aria-hidden="true">▤</span><h3>Data &amp; spreadsheets</h3><p>Working with data, organizing it clearly, and finding useful patterns.</p><div class="chip-list"><span class="chip">Data Analysis</span><span class="chip">MS Excel</span><span class="chip">Pandas</span></div></article>
+        <article class="skill-card card reveal"><span class="card-icon" aria-hidden="true">⌕</span><h3>Data mining</h3><p>Exploring datasets with beginner-friendly analytical techniques.</p><div class="chip-list"><span class="chip">Data Mining</span><span class="chip">Clustering</span><span class="chip">Python basics</span></div></article>
+        <article class="skill-card card reveal"><span class="card-icon" aria-hidden="true">⌘</span><h3>Tools &amp; learning</h3><p>Building, sharing, and documenting small projects as a team.</p><div class="chip-list"><span class="chip">Streamlit</span><span class="chip">GitHub</span><span class="chip">Documentation</span></div></article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Built together</p>
+        <h2 id="projects-title">Featured project<span class="accent-period">.</span></h2>
+      </div>
+      <article class="featured-project card reveal">
+        <div class="project-topline"><span class="project-mark" aria-hidden="true">☁</span><span class="project-badge">Data Mining · BCA 5th Semester Group Project</span></div>
+        <h3 class="featured-title">Weather Pattern Analysis and Prediction System</h3>
+        <p class="credit-line">Group project by Shubham Kumar and Ritik Singh. All project work was done by both of us.</p>
+        <p class="project-description">A Streamlit dashboard that explores weather observations with data cleaning, visual analysis, K-Means clustering and cautious machine-learning estimates. It makes data quality visible and evaluates models on observations that occur later in time than their training data.</p>
+        <a class="button button-primary project-link" href="https://github.com/ShubhamSingh1845/Weather-Pattern-Analysis-and-Prediction-System" target="_blank" rel="noopener noreferrer">View GitHub repository <span aria-hidden="true">↗</span></a>
+
+        <div class="project-details">
+          <div class="tab-list" role="tablist" aria-label="Weather project details">
+            <button class="tab-button" id="tab-objectives" type="button" role="tab" aria-selected="true" aria-controls="panel-objectives" tabindex="0">Objectives</button>
+            <button class="tab-button" id="tab-tools" type="button" role="tab" aria-selected="false" aria-controls="panel-tools" tabindex="-1">Tools</button>
+            <button class="tab-button" id="tab-techniques" type="button" role="tab" aria-selected="false" aria-controls="panel-techniques" tabindex="-1">Techniques</button>
+            <button class="tab-button" id="tab-workflow" type="button" role="tab" aria-selected="false" aria-controls="panel-workflow" tabindex="-1">Workflow</button>
+            <button class="tab-button" id="tab-dictionary" type="button" role="tab" aria-selected="false" aria-controls="panel-dictionary" tabindex="-1">Data dictionary</button>
+            <button class="tab-button" id="tab-limitations" type="button" role="tab" aria-selected="false" aria-controls="panel-limitations" tabindex="-1">Limitations</button>
+          </div>
+          <section class="tab-panel" id="panel-objectives" role="tabpanel" aria-labelledby="tab-objectives" tabindex="0">
+            <h4>Project objectives</h4>
+            <ul class="check-list">
+              <li>Load the provided weather CSV or a user-uploaded dataset.</li>
+              <li>Retrieve historical observations from the free Open-Meteo Archive API (default location Patna, Bihar; searchable for any Indian city).</li>
+              <li>Identify missing values, duplicates, invalid measurements and IQR outliers.</li>
+              <li>Visualize measurements, correlations and clusters.</li>
+              <li>Compare a seasonal-naive baseline with a Random Forest on a chronological holdout.</li>
+              <li>Export outputs as CSV downloads.</li>
+            </ul>
+          </section>
+          <section class="tab-panel" id="panel-tools" role="tabpanel" aria-labelledby="tab-tools" tabindex="0" hidden>
+            <h4>Tools &amp; technologies</h4>
+            <div class="chip-list tech-chips"><span class="chip">🐍 Python</span><span class="chip">🐼 Pandas</span><span class="chip">🔢 NumPy</span><span class="chip">🤖 Scikit-learn</span><span class="chip">📊 Plotly</span><span class="chip">🌐 Requests</span><span class="chip">🖥️ Streamlit</span><span class="chip">🌦️ Open-Meteo API</span><span class="chip">🐙 Git/GitHub</span></div>
+          </section>
+          <section class="tab-panel" id="panel-techniques" role="tabpanel" aria-labelledby="tab-techniques" tabindex="0" hidden>
+            <h4>Data mining techniques</h4>
+            <ul class="check-list">
+              <li>Preprocessing: duplicate removal, invalid-value flagging, median imputation of predictors only, IQR outlier detection.</li>
+              <li>Descriptive statistics, correlation analysis, monthly summaries.</li>
+              <li>K-Means clustering with scaled features (exploratory, not forecasts).</li>
+              <li>Random Forest regression with lag and cyclical calendar features.</li>
+              <li>Seasonal-naive 7-day lag baseline.</li>
+              <li>Chronological split (latest 20% held out) to avoid data leakage.</li>
+              <li>Evaluation with MAE and RMSE.</li>
+            </ul>
+          </section>
+          <section class="tab-panel" id="panel-workflow" role="tabpanel" aria-labelledby="tab-workflow" tabindex="0" hidden>
+            <h4>Project workflow</h4>
+            <ol class="workflow">
+              <li><span>01</span>Load data</li><li><span>02</span>Clean</li><li><span>03</span>Explore &amp; visualize</li><li><span>04</span>Cluster</li><li><span>05</span>Predict</li><li><span>06</span>Evaluate</li><li><span>07</span>Export CSV</li>
+            </ol>
+          </section>
+          <section class="tab-panel" id="panel-dictionary" role="tabpanel" aria-labelledby="tab-dictionary" tabindex="0" hidden>
+            <h4>Data dictionary</h4>
+            <div class="table-wrap" tabindex="0" aria-label="Scrollable data dictionary">
+              <table>
+                <thead><tr><th scope="col">App field</th><th scope="col">Open-Meteo variable</th><th scope="col">Unit</th></tr></thead>
+                <tbody>
+                  <tr><td>date</td><td>daily.time</td><td>local calendar date</td></tr>
+                  <tr><td>temperature_mean</td><td>temperature_2m_mean</td><td>°C</td></tr>
+                  <tr><td>temperature_max</td><td>temperature_2m_max</td><td>°C</td></tr>
+                  <tr><td>temperature_min</td><td>temperature_2m_min</td><td>°C</td></tr>
+                  <tr><td>precipitation</td><td>precipitation_sum</td><td>mm/day</td></tr>
+                  <tr><td>wind_speed_max</td><td>wind_speed_10m_max</td><td>m/s</td></tr>
+                  <tr><td>humidity_mean</td><td>daily mean of hourly relative_humidity_2m</td><td>%</td></tr>
+                  <tr><td>surface_pressure_mean</td><td>daily mean of hourly surface_pressure</td><td>hPa</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <section class="tab-panel" id="panel-limitations" role="tabpanel" aria-labelledby="tab-limitations" tabindex="0" hidden>
+            <h4>Limitations &amp; caveats</h4>
+            <ul class="check-list">
+              <li>The supplied CSV has 366 rows and 22 fields but no date column, so chronological evaluation is disabled for it.</li>
+              <li>Estimates are model-generated, not official forecasts.</li>
+              <li>Open-Meteo needs an internet connection.</li>
+              <li>Uncertainty grows with horizon.</li>
+            </ul>
+          </section>
+        </div>
+      </article>
+    </section>
+
+    <section class="section container" aria-labelledby="viva-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">A few things we can explain</p>
+        <h2 id="viva-title">Viva Q&amp;A<span class="accent-period">.</span></h2>
+      </div>
+      <div class="faq-list reveal">
+        <details class="faq-item"><summary>What is data mining?</summary><p>Data mining is the process of examining data to discover patterns, relationships, and useful information.</p></details>
+        <details class="faq-item"><summary>Why split chronologically?</summary><p>For time-based data, training on earlier observations and testing on later ones better reflects how a model would be used in practice.</p></details>
+        <details class="faq-item"><summary>What is data leakage?</summary><p>Data leakage happens when information unavailable at prediction time influences model training or evaluation, making results misleading.</p></details>
+        <details class="faq-item"><summary>What are MAE and RMSE?</summary><p>They measure average prediction error. MAE averages absolute errors; RMSE squares errors before averaging and taking the square root, so larger errors count more.</p></details>
+        <details class="faq-item"><summary>Why scale data for K-Means?</summary><p>K-Means uses distances. Scaling helps features with large numeric ranges from dominating the distance calculation.</p></details>
+        <details class="faq-item"><summary>What is the IQR outlier rule?</summary><p>The interquartile range is Q3 − Q1. Values below Q1 − 1.5 × IQR or above Q3 + 1.5 × IQR are flagged as potential outliers.</p></details>
+        <details class="faq-item"><summary>Is Open-Meteo Archive a live forecast?</summary><p>No. The Archive API provides historical weather data, not a live forecast.</p></details>
+        <details class="faq-item"><summary>What is a lag feature?</summary><p>A lag feature is a previous observation used as an input, such as a measurement from seven days earlier.</p></details>
+      </div>
+    </section>
+
+    <section class="section container" aria-labelledby="other-projects-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">More practice</p>
+        <h2 id="other-projects-title">Other projects<span class="accent-period">.</span></h2>
+      </div>
+      <div class="three-grid">
+        <article class="small-project card reveal"><span class="small-project-number">01 / EXPLORATION</span><h3>AgriLoss Insight</h3><p>An exploration of agricultural loss using introductory data mining methods.</p><div class="chip-list"><span class="chip">K-Means</span><span class="chip">Decision Tree</span><span class="chip">Apriori</span></div></article>
+        <article class="small-project card reveal"><span class="small-project-number">02 / SALES ANALYSIS</span><h3>Coffee Shop Sales Analysis using Python</h3><p>A Python-based project analyzing coffee shop sales, revenue trends, product performance, and customer insights, with an Excel dashboard.</p><div class="chip-list"><span class="chip">Python</span><span class="chip">Sales Analysis</span><span class="chip">Excel</span></div></article>
+        <article class="small-project card reveal"><span class="small-project-number">03 / DESKTOP APP</span><h3>Interactive Restaurant</h3><p>A small interactive restaurant application built with Python's Tkinter.</p><div class="chip-list"><span class="chip">Python</span><span class="chip">Tkinter</span></div></article>
+      </div>
+      <div class="section-heading idea-heading reveal">
+        <p class="eyebrow">Ideas to explore</p>
+        <h3>Possible next projects<span class="accent-period">.</span></h3>
+        <p>These are project ideas, not completed projects.</p>
+      </div>
+      <div class="three-grid idea-grid">
+        <article class="small-project card reveal">
+          <span class="small-project-number">TEXT &amp; SOCIAL DATA</span>
+          <h3>Sentiment analysis</h3>
+          <p>Analyze the sentiment expressed in product reviews or tweets.</p>
+          <div class="chip-list"><span class="chip">Text analysis</span><span class="chip">Reviews or tweets</span></div>
+        </article>
+        <article class="small-project card reveal">
+          <span class="small-project-number">TEXT &amp; SOCIAL DATA</span>
+          <h3>Movie recommendation system</h3>
+          <p>Use the MovieLens dataset to build a content-based movie recommender.</p>
+          <div class="chip-list"><span class="chip">MovieLens</span><span class="chip">Content-based filtering</span></div>
+        </article>
+        <article class="small-project card reveal">
+          <span class="small-project-number">ANOMALY DETECTION</span>
+          <h3>Credit card fraud detection</h3>
+          <p>Explore anomaly detection using Isolation Forest on a Kaggle fraud dataset.</p>
+          <div class="chip-list"><span class="chip">Isolation Forest</span><span class="chip">Anomaly detection</span></div>
+        </article>
+        <article class="small-project card reveal">
+          <span class="small-project-number">ANOMALY DETECTION</span>
+          <h3>Unusual electricity or sales records</h3>
+          <p>Flag unusual electricity or sales records with the IQR rule, as in the weather project.</p>
+          <div class="chip-list"><span class="chip">IQR rule</span><span class="chip">Outlier detection</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" aria-labelledby="education-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Growing our foundations</p>
+        <h2 id="education-title">Education<span class="accent-period">.</span></h2>
+      </div>
+      <div class="timeline-card card reveal">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <div><p class="timeline-date">Currently pursuing · Expected completion July 2027</p><h3>Bachelor of Computer Applications (BCA)</h3><p>Chandigarh University</p><div class="chip-list"><span class="chip">Shubham Kumar</span><span class="chip">Ritik Singh</span></div></div>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-card card reveal">
+        <p class="eyebrow">Open to learning together</p>
+        <h2 id="contact-title">Let's connect<span class="accent-period">.</span></h2>
+        <p>Find us on GitHub and follow along as we keep learning and building.</p>
+        <div class="button-row">
+          <a class="button button-primary" href="https://github.com/ShubhamSingh1845/Weather-Pattern-Analysis-and-Prediction-System" target="_blank" rel="noopener noreferrer">Shubham on GitHub <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="https://github.com/RITIK-USERNAME" target="_blank" rel="noopener noreferrer">Ritik on GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer container"><p>© 2026 Shubham Kumar &amp; Ritik Singh</p><p>Student portfolio. Keep learning, keep building.</p></footer>
+</body>
+</html>
